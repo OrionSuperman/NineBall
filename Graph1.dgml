@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph GraphDirection="TopToBottom" Layout="Sugiyama" ZoomLevel="-1" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="06fb9678-cded-47d3-9463-b5fea62d4b7e1" Category="Comment" Bounds="517.018333333333,348.496666666667,248.623333333333,97.8833333333332" Label="The main game loop. Loops through all the balls and for each ball moving, calls checkBallCollision for the moving ball against every other ball, in a nested loop." />
+    <Node Id="4035f7b9-62be-4a75-9cea-9d43996685891" Category="Comment" Bounds="171.188333333334,569.110000000001,246.976666666666,45.1533333333332" Label="Contains the code to strike the cue ball and begin moving it." />
+    <Node Id="514b9f7b-4866-4310-9a63-e05ced7f04d31" Category="Comment" Bounds="1180.65833333333,348.496666666667,241.946666666667,80.3066666666664" Label="The Methods in Green and White are simple methods, are commented, and should not require much effort to modify them in the future if needed." />
+    <Node Id="70295738-801b-492a-ac1c-8e0cf46ec3cd1" Category="Comment" Bounds="0,348.496666666667,240.783333333333,133.036666666667" Label="The Methods in Blue and Red are the most Functionally Critical methods,   Blue indicates a finished and stable method;  Red indicates a method that has bugs or should be refactored, or split into several methods, due to exessive lines of code." />
+    <Node Id="7447e9fd-6c3c-488b-b2b0-d159441a8f581" Category="Comment" Bounds="654.003333333333,0,246.693333333335,133.036666666667" Label="This adds a specific flag to parameters, which is a bitwise flag that affects many aspects of the main form window. Flag that is added helps prevent flicker while the balls are moving. Flag only active while balls are moving." />
+    <Node Id="9f1e62f7-dc0a-4353-9e57-a70e7d958d0f1" Category="Comment" Bounds="29.2649999999996,0,230.063333333334,62.73" Label="We were unable to implement this method due to a bug where the ball keeps going over the wall boundary." />
+    <Node Id="Aa" Bounds="339.083333333333,511.533333333334,80.6166666666668,27.5766666666668" Label="MainForm" />
+    <Node Id="CenterPoolTable()" Bounds="1129.24333333333,569.110000000001,122.736666666667,27.5766666666668" Label="centerPoolTable()" />
+    <Node Id="ChangeScoreLabel(boolScored)" Category="Category2" Bounds="215.56,701.840000000001,201.903333333334,27.5766666666668" Label="changeScoreLabel(bool scored)" />
+    <Node Id="CheckBallCollision(BilliardBall^Striker,BilliardBall^Struck)" Category="Category1" Bounds="795.641666666666,476.38,355.016666666667,27.5766666666668" Label="checkBallCollision(BilliardBall^ striker, BilliardBall^ struck)">
+      <Category Ref="Category9" />
+    </Node>
+    <Node Id="CheckWallsAndPockets()MethodDependsOnThisMethod." Category="Comment" Bounds="619.633333333333,569.110000000001,212.55,45.1533333333332" Label="CheckWallsAndPockets() method depends on this method." />
+    <Node Id="CheckWallsAndPockets(BilliardBall^Ball)" Category="Category1" Bounds="318.593333333333,255.766666666666,254.736666666667,27.5766666666668" Label="checkWallsAndPockets(BilliardBall^ ball)" />
+    <Node Id="CheckWallsAndPockets_New(BilliardBall^Ball)" Category="Category1" Bounds="0,290.92,288.593333333333,27.5766666666668" Label="checkWallsAndPockets_New(BilliardBall^ ball)" />
+    <Node Id="Cueball_MouseMove(System::Object^Sender,System::Windows::Forms::MouseEventArgs^E" Bounds="0,759.416666666668,569.11,27.5766666666668" Label="cueball_MouseMove(System::Object^  sender, System::Windows::Forms::MouseEventArgs^  e" />
+    <Node Id="EndGame(playersWinningPlayer)" Category="Category2" Bounds="1195.32,458.803333333333,212.623333333333,27.5766666666668" Label="endGame(players winningPlayer)" />
+    <Node Id="KeepScore(boolScratched)" Category="Category2" Bounds="1129.24333333333,626.686666666667,174.443333333333,27.5766666666668" Label="keepScore(bool scratched)" />
+    <Node Id="MainForm_KeyDown(System::Object^Sender,System::Windows::Forms::KeyEventArgs^E" Bounds="0,816.993333333334,549.803333333333,27.5766666666667" Label="MainForm_KeyDown(System::Object^  sender, System::Windows::Forms::KeyEventArgs^  e" />
+    <Node Id="MoveBalls()" Category="Category1" Bounds="597.198333333333,476.38,88.2633333333333,27.5766666666668" Label="moveBalls()">
+      <Category Ref="Category9" />
+    </Node>
+    <Node Id="PerformMainMenuSelection(mainMenuItemItem)" Bounds="447.463333333334,701.840000000001,315.643333333333,27.5766666666668" Label="performMainMenuSelection(mainMenuItem item)" />
+    <Node Id="PlaySoundThread()" Bounds="1281.98,569.110000000001,130.7,27.5766666666668" Label="playSoundThread()" />
+    <Node Id="Play_Sound(LPCTSTRSound)" Bounds="0,701.840000000001,185.56,27.5766666666668" Label="play_Sound(LPCTSTR sound)" />
+    <Node Id="PoolTable_MouseMove(System::Object^Sender,System::Windows::Forms::MouseEventArgs^E)" Bounds="599.11,759.416666666668,588.466666666667,27.5766666666668" Label="poolTable_MouseMove(System::Object^  sender, System::Windows::Forms::MouseEventArgs^  e)" />
+    <Node Id="SetDestinationPoint" Category="Category1" Bounds="862.463333333333,644.263333333334,236.78,27.5766666666666" Label="setDestinationPoint(BilliardBall^ ball)">
+      <Category Ref="Category9" />
+    </Node>
+    <Node Id="SetsTheMovingBall'sDestinationPoint." Category="Comment" Bounds="873.083333333333,569.11,215.54,45.1533333333332" Label="Sets the moving ball's destination point." />
+    <Node Id="ShowMainMenu()" Bounds="707.896666666667,816.993333333334,124.453333333333,27.5766666666666" Label="showMainMenu()" />
+    <Node Id="SpotCueBall()" Category="Category1" Bounds="579.803333333333,816.993333333334,98.0933333333332,27.5766666666666" Label="spotCueBall()">
+      <Category Ref="Category2" />
+    </Node>
+    <Node Id="StartupTimer_Tick(System::Object^Sender,System::EventArgs^E)" Bounds="793.106666666667,701.840000000001,410.463333333333,27.5766666666668" Label="startupTimer_Tick(System::Object^  sender, System::EventArgs^  e)" />
+    <Node Id="System::Windows::Forms::CreateParams^CreateParams" Category="Category9" Bounds="603.33,163.036666666667,348.04,27.5766666666668" Label="System::Windows::Forms::CreateParams^ CreateParams" />
+    <Node Id="WallsWallCheck(BilliardBall^Ball)" Category="Category1" Bounds="619.353333333333,644.263333333334,213.11,27.5766666666668" Label="walls wallCheck(BilliardBall^ ball)">
+      <Category Ref="Category9" />
+    </Node>
+    <Node Id="acfcf0b2-2ec3-4f5c-ae0f-b759cdfb38ce1" Category="Comment" Bounds="850.166666666666,348.496666666667,245.966666666667,97.8833333333332" Label="Checks if two balls should collide. If so, moves the balls to their new post-collision destinations, and sets new angles and speeds for both balls after the collision." />
+    <Node Id="aed45246-1cb1-49ad-bc39-dacc8c208f341" Category="Comment" Bounds="321.993333333333,0,247.936666666666,97.8833333333332" Label="Known bug: When a ball is struck while very close to, or touching a wall, the ball will shake as it rolls along the wall, and it may not be following the correct angle." />
+    <Node Id="af3792dd-5ed5-4870-a4d1-01edd2cd8f711" Category="Comment" Bounds="19.9183333333335,92.73,248.756666666666,168.19" Label="This is the new method for wall collisions and if ball is in a pocket. It is more efficient because uses uses the ball angle to determine the reflected angle, instead of calculating the angle by slope and original point, and it takes less than half the number of lines of code (the current method is over 500 lines long)." />
+    <Node Id="c106ed27-d59f-478a-9b8b-6ac47da678d71" Category="Category1" Bounds="0,644.263333333334,589.353333333333,27.5766666666668" Label="poolTable_MouseDown(System::Object^  sender, System::Windows::Forms::MouseEventArgs^  e)">
+      <Category Ref="Category9" />
+    </Node>
+    <Node Id="e12aa437-0590-4684-802d-a54ba1e447371" Category="Comment" Bounds="326.738333333333,127.883333333333,238.446666666667,97.8833333333332" Label="This method checks for wall collisions and checks if the ball is going into a pocket, by calling the ballinPocket method. It is functional but has over 500 lines of code, and has a bug." />
+    <Node Id="fa4b4e20-f103-46de-a999-f99a213541311" Category="Comment" Bounds="271.765,392.438333333334,215.253333333333,45.1533333333336" Label="All method shown here are in the MainForm.H file." />
+  </Nodes>
+  <Links>
+    <Link Source="06fb9678-cded-47d3-9463-b5fea62d4b7e1" Target="MoveBalls()" Bounds="641.330017089844,446.380004882813,0,21" />
+    <Link Source="4035f7b9-62be-4a75-9cea-9d43996685891" Target="c106ed27-d59f-478a-9b8b-6ac47da678d71" Bounds="294.676666259766,614.263305664063,0,21" />
+    <Link Source="514b9f7b-4866-4310-9a63-e05ced7f04d31" Target="EndGame(playersWinningPlayer)" Bounds="1301.63171386719,428.803344726563,0,21" />
+    <Link Source="70295738-801b-492a-ac1c-8e0cf46ec3cd1" Target="Aa" Bounds="240.783340454102,466.289154052734,97.9530181884766,41.7176513671875" />
+    <Link Source="7447e9fd-6c3c-488b-b2b0-d159441a8f581" Target="System::Windows::Forms::CreateParams^CreateParams" Bounds="777.349975585938,133.036666870117,0,21" />
+    <Link Source="9f1e62f7-dc0a-4353-9e57-a70e7d958d0f1" Target="af3792dd-5ed5-4870-a4d1-01edd2cd8f711" Bounds="144.296661376953,62.7299995422363,0,21.0000038146973" />
+    <Link Source="CheckWallsAndPockets()MethodDependsOnThisMethod." Target="WallsWallCheck(BilliardBall^Ball)" Bounds="725.908325195313,614.263305664063,0,21" />
+    <Link Source="SetsTheMovingBall'sDestinationPoint." Target="SetDestinationPoint" Bounds="980.853332519531,614.263305664063,0,21" />
+    <Link Source="acfcf0b2-2ec3-4f5c-ae0f-b759cdfb38ce1" Target="CheckBallCollision(BilliardBall^Striker,BilliardBall^Struck)" Bounds="973.150024414063,446.380004882813,0,21" />
+    <Link Source="aed45246-1cb1-49ad-bc39-dacc8c208f341" Target="e12aa437-0590-4684-802d-a54ba1e447371" Bounds="445.961669921875,97.8833312988281,0,21" />
+    <Link Source="af3792dd-5ed5-4870-a4d1-01edd2cd8f711" Target="CheckWallsAndPockets_New(BilliardBall^Ball)" Bounds="144.296661376953,260.920013427734,0,21" />
+    <Link Source="e12aa437-0590-4684-802d-a54ba1e447371" Target="CheckWallsAndPockets(BilliardBall^Ball)" Bounds="445.961669921875,225.766662597656,0,21" />
+    <Link Source="fa4b4e20-f103-46de-a999-f99a213541311" Target="Aa" Bounds="379.391662597656,437.591674804688,0,64.941650390625" />
+  </Links>
+  <Categories>
+    <Category Id="Category1" Label="Category 1" Background="#FFE51400" IsTag="True" />
+    <Category Id="Category2" Label="Category 2" Background="#FF339933" IsTag="True" />
+    <Category Id="Category9" Label="Category 9" Background="#FF00539C" IsTag="True" />
+    <Category Id="Comment" Label="Comment" Description="Represents a user defined comment on the diagram" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Comments" />
+  </Categories>
+  <Properties>
+    <Property Id="Background" Label="Background" Description="The background color" DataType="System.Windows.Media.Brush" />
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="GraphDirection" DataType="Microsoft.VisualStudio.Diagrams.Layout.LayoutOrientation" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
+    <Property Id="IsTag" DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+    <Property Id="ZoomLevel" DataType="System.String" />
+  </Properties>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Category 9" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Category9')" />
+      <Setter Property="Background" Value="#FF00539C" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Category 2" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Category2')" />
+      <Setter Property="Background" Value="#FF339933" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Category 1" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Category1')" />
+      <Setter Property="Background" Value="#FFE51400" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Comment" ValueLabel="Has comment">
+      <Condition Expression="HasCategory('Comment')" />
+      <Setter Property="Background" Value="#FFFFFACD" />
+      <Setter Property="Stroke" Value="#FFE5C365" />
+      <Setter Property="StrokeThickness" Value="1" />
+      <Setter Property="NodeRadius" Value="2" />
+      <Setter Property="MaxWidth" Value="250" />
+    </Style>
+  </Styles>
+</DirectedGraph>

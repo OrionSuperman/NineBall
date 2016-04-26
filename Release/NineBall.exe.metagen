@@ -1,0 +1,123 @@
+  NineBall.AboutForm.resources - Embedded, ContainedInManifestFile, 
+  NineBall.BilliardBall.resources - Embedded, ContainedInManifestFile, 
+  NineBall.MainForm.resources - Embedded, ContainedInManifestFile, 
+  NineBall.MenuForm.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly NineBall, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class NineBall.AboutForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class NineBall.BilliardBall: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Collections.Generic.List`1[System.Drawing.Point] Moves IsByValue : Public, InitOnly
+  Properties:
+    System.Windows.Forms.CreateParams CreateParams 'get ' : 
+    System.Drawing.Point StartPos 'get set' : 
+    System.Drawing.Point Destination 'get set' : 
+    Double Y_intercept 'get set' : 
+    Single Angle 'get set' : 
+    Double Slope 'get set' : 
+    Double Distance 'get set' : 
+    Double FirstPos_Y 'get set' : 
+    Double FirstPos_X 'get set' : 
+    Double PosX 'get set' : 
+    Double PosY 'get set' : 
+    Double SpeedY 'get set' : 
+    Double SpeedX 'get set' : 
+    Double MoveVal 'get set' : 
+    Boolean AddY 'get set' : 
+    Boolean Moving 'get set' : 
+    System.Drawing.Image BallImage 'get set' : 
+  Methods:
+    get_BallImage(): PrivateScope, Public, HideBySig, SpecialName
+    set_BallImage(Image): PrivateScope, Public, HideBySig, SpecialName
+    get_Moving(): PrivateScope, Public, HideBySig, SpecialName
+    set_Moving(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig, SpecialName
+    get_AddY(): PrivateScope, Public, HideBySig, SpecialName
+    set_AddY(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig, SpecialName
+    get_MoveVal(): PrivateScope, Public, HideBySig, SpecialName
+    set_MoveVal(Double): PrivateScope, Public, HideBySig, SpecialName
+    get_SpeedX(): PrivateScope, Public, HideBySig, SpecialName
+    set_SpeedX(Double): PrivateScope, Public, HideBySig, SpecialName
+    get_SpeedY(): PrivateScope, Public, HideBySig, SpecialName
+    set_SpeedY(Double): PrivateScope, Public, HideBySig, SpecialName
+    get_PosY(): PrivateScope, Public, HideBySig, SpecialName
+    set_PosY(Double): PrivateScope, Public, HideBySig, SpecialName
+    get_PosX(): PrivateScope, Public, HideBySig, SpecialName
+    set_PosX(Double): PrivateScope, Public, HideBySig, SpecialName
+    get_FirstPos_X(): PrivateScope, Public, HideBySig, SpecialName
+    set_FirstPos_X(Double): PrivateScope, Public, HideBySig, SpecialName
+    get_FirstPos_Y(): PrivateScope, Public, HideBySig, SpecialName
+    set_FirstPos_Y(Double): PrivateScope, Public, HideBySig, SpecialName
+    get_Distance(): PrivateScope, Public, HideBySig, SpecialName
+    set_Distance(Double): PrivateScope, Public, HideBySig, SpecialName
+    get_Slope(): PrivateScope, Public, HideBySig, SpecialName
+    set_Slope(Double): PrivateScope, Public, HideBySig, SpecialName
+    get_Angle(): PrivateScope, Public, HideBySig, SpecialName
+    set_Angle(Single): PrivateScope, Public, HideBySig, SpecialName
+    get_Y_intercept(): PrivateScope, Public, HideBySig, SpecialName
+    set_Y_intercept(Double): PrivateScope, Public, HideBySig, SpecialName
+    get_Destination(): PrivateScope, Public, HideBySig, SpecialName
+    set_Destination(Point): PrivateScope, Public, HideBySig, SpecialName
+    get_StartPos(): PrivateScope, Public, HideBySig, SpecialName
+    set_StartPos(Point): PrivateScope, Public, HideBySig, SpecialName
+    get_CreateParams(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+Class NineBall.MenuForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String helpFile : Public
+    Byte[] menus : Public
+    Byte selectedMenu : Public
+    Byte oldSelectedMenu : Public
+    System.Drawing.Font itemFont : Public
+    System.Drawing.Font itemSelectedFont : Public
+  Methods:
+    GetSelectedItem(): PrivateScope, Public, HideBySig
+Struct NineBall.MenuForm+menuItems: AutoLayout, AnsiClass, Class, NestedPublic, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    menuItems play = 0 : Public, Static, Literal, HasDefault
+    menuItems generalhelp = 1 : Public, Static, Literal, HasDefault
+    menuItems about = 2 : Public, Static, Literal, HasDefault
+    menuItems playonline = 3 : Public, Static, Literal, HasDefault
+    menuItems exit = 4 : Public, Static, Literal, HasDefault
+    menuItems none = 5 : Public, Static, Literal, HasDefault
+Class NineBall.MainForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Windows.Forms.CreateParams CreateParams 'get ' : 
+  Methods:
+    get_CreateParams(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+Struct NineBall.Direction: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    NineBall.Direction unknown = 0 : Public, Static, Literal, HasDefault
+    NineBall.Direction right = 1 : Public, Static, Literal, HasDefault
+    NineBall.Direction left = 2 : Public, Static, Literal, HasDefault
+    NineBall.Direction up = 3 : Public, Static, Literal, HasDefault
+    NineBall.Direction down = 4 : Public, Static, Literal, HasDefault
+    NineBall.Direction upper_right = 5 : Public, Static, Literal, HasDefault
+    NineBall.Direction upper_left = 6 : Public, Static, Literal, HasDefault
+    NineBall.Direction lower_right = 7 : Public, Static, Literal, HasDefault
+    NineBall.Direction lower_left = 8 : Public, Static, Literal, HasDefault

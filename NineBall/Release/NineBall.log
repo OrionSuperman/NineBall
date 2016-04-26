@@ -1,0 +1,70 @@
+﻿  stdafx.cpp
+  AboutForm.cpp
+c:\users\matt\documents\visual studio 2013\projects\nineball\nineball\AboutForm.h(209): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+  AssemblyInfo.cpp
+  BilliardBall.cpp
+  LastDisplayedName.cpp
+  MenuForm.cpp
+c:\users\matt\documents\visual studio 2013\projects\nineball\nineball\AboutForm.h(209): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+c:\users\matt\documents\visual studio 2013\projects\nineball\nineball\MenuForm.h(39): warning C4305: 'argument' : truncation from 'double' to 'float'
+c:\users\matt\documents\visual studio 2013\projects\nineball\nineball\MenuForm.h(58): warning C4305: 'argument' : truncation from 'double' to 'float'
+c:\users\matt\documents\visual studio 2013\projects\nineball\nineball\MenuForm.h(431): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+c:\users\matt\documents\visual studio 2013\projects\nineball\nineball\MenuForm.h(433): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+  NineBall.cpp
+c:\users\matt\documents\visual studio 2013\projects\nineball\nineball\AboutForm.h(209): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+c:\users\matt\documents\visual studio 2013\projects\nineball\nineball\MenuForm.h(39): warning C4305: 'argument' : truncation from 'double' to 'float'
+c:\users\matt\documents\visual studio 2013\projects\nineball\nineball\MenuForm.h(58): warning C4305: 'argument' : truncation from 'double' to 'float'
+c:\users\matt\documents\visual studio 2013\projects\nineball\nineball\MenuForm.h(431): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+c:\users\matt\documents\visual studio 2013\projects\nineball\nineball\MenuForm.h(433): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+c:\users\matt\documents\visual studio 2013\projects\nineball\nineball\MainForm.h(44): warning C4305: 'initializing' : truncation from 'double' to 'float'
+c:\users\matt\documents\visual studio 2013\projects\nineball\nineball\MainForm.h(904): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+c:\users\matt\documents\visual studio 2013\projects\nineball\nineball\MainForm.h(1083): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+c:\users\matt\documents\visual studio 2013\projects\nineball\nineball\MainForm.h(1203): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+c:\users\matt\documents\visual studio 2013\projects\nineball\nineball\MainForm.h(1217): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+c:\users\matt\documents\visual studio 2013\projects\nineball\nineball\MainForm.h(1230): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+c:\users\matt\documents\visual studio 2013\projects\nineball\nineball\MainForm.h(1239): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+c:\users\matt\documents\visual studio 2013\projects\nineball\nineball\MainForm.h(1246): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+c:\users\matt\documents\visual studio 2013\projects\nineball\nineball\MainForm.h(1254): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+c:\users\matt\documents\visual studio 2013\projects\nineball\nineball\MainForm.h(1305): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+c:\users\matt\documents\visual studio 2013\projects\nineball\nineball\MainForm.h(1327): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+c:\users\matt\documents\visual studio 2013\projects\nineball\nineball\MainForm.h(1329): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+c:\users\matt\documents\visual studio 2013\projects\nineball\nineball\MainForm.h(1344): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+c:\users\matt\documents\visual studio 2013\projects\nineball\nineball\MainForm.h(1348): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+c:\users\matt\documents\visual studio 2013\projects\nineball\nineball\MainForm.h(1368): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+c:\users\matt\documents\visual studio 2013\projects\nineball\nineball\MainForm.h(1376): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+c:\users\matt\documents\visual studio 2013\projects\nineball\nineball\MainForm.h(1378): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+c:\users\matt\documents\visual studio 2013\projects\nineball\nineball\MainForm.h(1397): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+c:\users\matt\documents\visual studio 2013\projects\nineball\nineball\MainForm.h(1399): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+c:\users\matt\documents\visual studio 2013\projects\nineball\nineball\MainForm.h(1419): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+c:\users\matt\documents\visual studio 2013\projects\nineball\nineball\MainForm.h(1427): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+c:\users\matt\documents\visual studio 2013\projects\nineball\nineball\MainForm.h(1431): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+c:\users\matt\documents\visual studio 2013\projects\nineball\nineball\MainForm.h(1446): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+c:\users\matt\documents\visual studio 2013\projects\nineball\nineball\MainForm.h(1450): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+c:\users\matt\documents\visual studio 2013\projects\nineball\nineball\MainForm.h(1470): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+c:\users\matt\documents\visual studio 2013\projects\nineball\nineball\MainForm.h(1478): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+c:\users\matt\documents\visual studio 2013\projects\nineball\nineball\MainForm.h(1480): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+c:\users\matt\documents\visual studio 2013\projects\nineball\nineball\MainForm.h(1499): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+c:\users\matt\documents\visual studio 2013\projects\nineball\nineball\MainForm.h(1501): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+c:\users\matt\documents\visual studio 2013\projects\nineball\nineball\MainForm.h(1527): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+c:\users\matt\documents\visual studio 2013\projects\nineball\nineball\MainForm.h(1544): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+c:\users\matt\documents\visual studio 2013\projects\nineball\nineball\MainForm.h(1549): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+c:\users\matt\documents\visual studio 2013\projects\nineball\nineball\MainForm.h(1573): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+c:\users\matt\documents\visual studio 2013\projects\nineball\nineball\MainForm.h(1578): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+c:\users\matt\documents\visual studio 2013\projects\nineball\nineball\MainForm.h(1593): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+c:\users\matt\documents\visual studio 2013\projects\nineball\nineball\MainForm.h(1609): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+c:\users\matt\documents\visual studio 2013\projects\nineball\nineball\MainForm.h(1614): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+c:\users\matt\documents\visual studio 2013\projects\nineball\nineball\MainForm.h(1638): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+c:\users\matt\documents\visual studio 2013\projects\nineball\nineball\MainForm.h(1643): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+c:\users\matt\documents\visual studio 2013\projects\nineball\nineball\MainForm.h(1668): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+c:\users\matt\documents\visual studio 2013\projects\nineball\nineball\MainForm.h(1676): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+c:\users\matt\documents\visual studio 2013\projects\nineball\nineball\MainForm.h(1733): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+c:\users\matt\documents\visual studio 2013\projects\nineball\nineball\MainForm.h(1797): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+c:\users\matt\documents\visual studio 2013\projects\nineball\nineball\MainForm.h(1801): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+c:\users\matt\documents\visual studio 2013\projects\nineball\nineball\MainForm.h(1803): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+c:\users\matt\documents\visual studio 2013\projects\nineball\nineball\MainForm.h(1814): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+c:\users\matt\documents\visual studio 2013\projects\nineball\nineball\MainForm.h(1827): warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+c:\users\matt\documents\visual studio 2013\projects\nineball\nineball\MainForm.h(1831): warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+c:\users\matt\documents\visual studio 2013\projects\nineball\nineball\MainForm.h(1905): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+  Generating Code...
+  .NETFramework,Version=v4.5.AssemblyAttributes.cpp
+  NineBall.vcxproj -> C:\Users\Matt\documents\visual studio 2013\Projects\NineBall\Release\NineBall.exe
